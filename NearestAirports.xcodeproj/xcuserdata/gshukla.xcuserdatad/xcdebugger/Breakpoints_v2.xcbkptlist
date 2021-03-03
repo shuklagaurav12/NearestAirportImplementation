@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "898FC836-804A-46A6-A54F-287E01277447"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearestAirports/View/airportDescription.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "model1"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - 6edef360e613ca7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.model1.getter : Swift.Optional&lt;NearestAirports.AirportElement&gt;"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1055">
+               </Location>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - 58398cd710637e5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.model1.setter : Swift.Optional&lt;NearestAirports.AirportElement&gt;"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - b898a54854b11af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.model1.modify : Swift.Optional&lt;NearestAirports.AirportElement&gt;"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - 24ac4d7b87f0d099"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.model1.modify : Swift.Optional&lt;NearestAirports.AirportElement&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - c4d3c569f15078d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; NearestAirports.airportDescription"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "5B62A4B4-EF61-4B78-9A26-977FE6ABE31F - f764e1d2e2feb8ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearestAirports.airportDescription.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;NearestAirports.airportDescription&gt;"
+                  moduleName = "NearestAirports"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gshukla/Desktop/NearestAirports/NearestAirports/View/airportDescription.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "541">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
