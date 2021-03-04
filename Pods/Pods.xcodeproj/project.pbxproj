@@ -52,7 +52,7 @@
 /* Begin PBXFileReference section */
 		05C25D7D55FD89F9879007A612E330C6 /* Pods-NearestAirports-NearestAirportsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NearestAirports-NearestAirportsUITests.modulemap"; sourceTree = "<group>"; };
 		1CC377BE0B4DED97F72C27E6F4D67002 /* Pods-NearestAirports-NearestAirportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearestAirports-NearestAirportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2CCF688F3A6B71EDE9EF253EC2A4D556 /* Pods_NearestAirports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NearestAirports.framework; path = "Pods-NearestAirports.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCF688F3A6B71EDE9EF253EC2A4D556 /* Pods_NearestAirports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearestAirports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A777F7D071EB5D48CB9E8058E24A41 /* Pods-NearestAirports-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearestAirports-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DF0A6FF38A2F36EDC9E5591BEA93F8E /* Pods-NearestAirports-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NearestAirports-dummy.m"; sourceTree = "<group>"; };
 		41C70157D738F11A12286929E7D3D231 /* Pods-NearestAirports.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NearestAirports.modulemap"; sourceTree = "<group>"; };
@@ -74,15 +74,15 @@
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7A9A97BFBB7AE0707AD9DBDF38FE1E6C /* Pods-NearestAirports-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearestAirports-Info.plist"; sourceTree = "<group>"; };
 		8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A263D11C1A2C9D823B4059565A19908 /* Pods-NearestAirports-NearestAirportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearestAirports-NearestAirportsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B33FEE4A3E57472EEF2A5445C28953A9 /* Pods_NearestAirports_NearestAirportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NearestAirports_NearestAirportsUITests.framework; path = "Pods-NearestAirports-NearestAirportsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33FEE4A3E57472EEF2A5445C28953A9 /* Pods_NearestAirports_NearestAirportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearestAirports_NearestAirportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89048F4234520E4C8336B0FA43AD63 /* Pods-NearestAirports-NearestAirportsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NearestAirports-NearestAirportsUITests-Info.plist"; sourceTree = "<group>"; };
 		C0D2BBD71F8A187F82413A7056C8F2FC /* Pods-NearestAirports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearestAirports.release.xcconfig"; sourceTree = "<group>"; };
 		C6F77A60E75772B6BBCB27D98492F3C9 /* Pods-NearestAirportsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NearestAirportsTests-umbrella.h"; sourceTree = "<group>"; };
-		D6A58BAC64DE1F2911A829BBED64C969 /* Pods_NearestAirportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NearestAirportsTests.framework; path = "Pods-NearestAirportsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A58BAC64DE1F2911A829BBED64C969 /* Pods_NearestAirportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearestAirportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFF06957AAC0F80482B8304C43B3DA0 /* Pods-NearestAirports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NearestAirports.debug.xcconfig"; sourceTree = "<group>"; };
 		DD1CF68E48C8BD89E3E3E37BD9082CFF /* Pods-NearestAirports-NearestAirportsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NearestAirports-NearestAirportsUITests-umbrella.h"; sourceTree = "<group>"; };
 		DE6EDEC083D9A19E4B0BA3E9463F9108 /* Pods-NearestAirports-NearestAirportsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NearestAirports-NearestAirportsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -227,7 +227,6 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -388,7 +387,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -642,6 +641,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -744,6 +744,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -794,7 +795,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -867,7 +868,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

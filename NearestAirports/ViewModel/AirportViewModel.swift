@@ -16,9 +16,35 @@ class AirportViewModal
     var autocompleteCities = [String]()
     var filteredData = [AirportElement]()
     var filtered = false
+    private let manager: AirportManager = AirportManager()
     
     weak var vc: ViewController?
     
+    
+    // check if data exist in database
+    func checkData()
+    {
+        let countArr = manager.getAll()
+        if countArr!.count > 0 {
+            self.arrAirportData = countArr!
+        }else{
+           getAllAirportData()
+        }
+    }
+    
+    // delete all store data
+    func deleteAllData()
+    {
+        manager.deleteAllData()
+        self.arrAirportData.removeAll()
+        DispatchQueue.main.async { [self] in
+            self.vc?.tblView.reloadData()
+        }
+        let countArr = manager.getAll()
+        if countArr!.count == 0 {
+            getAllAirportData()
+        }
+    }
     
     // Api Call
     func getAllAirportData()
@@ -27,14 +53,17 @@ class AirportViewModal
         let apiURL = URL(string: ApiEndpoints.airports)!
         let httpUtility = HttpUtility()
         
-        httpUtility.getApiData(requestUrl: apiURL, resultType: [AirportElement].self) { (result) in
+        httpUtility.getApiData(requestUrl: apiURL, resultType: [AirportElement].self) { [self] (result) in
             if(result?.count != 0)
             {
                 self.arrAirportData.append(contentsOf: result!)
-                DispatchQueue.main.async{ [self] in
+                
+                DispatchQueue.main.async { [self] in
                     self.vc?.tblView.reloadData()
                     MBProgressHUD.hide(for: vc!.view, animated: true)
+                    manager.create(arrElement: self.arrAirportData)// savedata in coredata
                 }
+         
             }
         }
     }

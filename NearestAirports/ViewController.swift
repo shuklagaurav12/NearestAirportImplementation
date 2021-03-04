@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModelAirport.vc = self
-        viewModelAirport.getAllAirportData()
+        viewModelAirport.checkData()
         
         // textField Action
         self.searchCityTF.addTarget(self, action: #selector(tetxFieldSearch), for: .editingChanged)
@@ -27,6 +27,11 @@ class ViewController: UIViewController {
     @objc func tetxFieldSearch (sender: UITextField){
         viewModelAirport.textFieldSearch()
     }
+    
+    @IBAction func btnRefresh_Action(_ sender: Any) {
+        viewModelAirport.deleteAllData()
+    }
+    
 }
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate{

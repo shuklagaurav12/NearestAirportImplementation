@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A47741D3095448BC8090C17B /* Pods_NearestAirports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E81A45F28BE8EBF9176A34 /* Pods_NearestAirports.framework */; };
 		BFF8B7FD93CB081F05454BBC /* Pods_NearestAirports_NearestAirportsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD5FACEF03B1881B19397FD /* Pods_NearestAirports_NearestAirportsUITests.framework */; };
 		C0860C98430EFEF287732B7B /* Pods_NearestAirportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170A2BE6FC3B0A88A2B03ED0 /* Pods_NearestAirportsTests.framework */; };
+		E483550325F02A8600D29DB4 /* PersisstentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483550225F02A8600D29DB4 /* PersisstentStorage.swift */; };
+		E483550925F02F3E00D29DB4 /* AirportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483550825F02F3E00D29DB4 /* AirportManager.swift */; };
+		E483551225F09FA800D29DB4 /* CRAirportElement+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483551025F09FA800D29DB4 /* CRAirportElement+CoreDataClass.swift */; };
+		E483551325F09FA800D29DB4 /* CRAirportElement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483551125F09FA800D29DB4 /* CRAirportElement+CoreDataProperties.swift */; };
 		E4D5D38925ED70FF00AF0358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D5D38825ED70FF00AF0358 /* AppDelegate.swift */; };
 		E4D5D38B25ED70FF00AF0358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D5D38A25ED70FF00AF0358 /* SceneDelegate.swift */; };
 		E4D5D38D25ED70FF00AF0358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D5D38C25ED70FF00AF0358 /* ViewController.swift */; };
@@ -55,6 +59,10 @@
 		C7FB65C6495C1CC4244798D3 /* Pods-NearestAirports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearestAirports.release.xcconfig"; path = "Target Support Files/Pods-NearestAirports/Pods-NearestAirports.release.xcconfig"; sourceTree = "<group>"; };
 		DC580F75FE224BABE4B2392F /* Pods-NearestAirports-NearestAirportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearestAirports-NearestAirportsUITests.release.xcconfig"; path = "Target Support Files/Pods-NearestAirports-NearestAirportsUITests/Pods-NearestAirports-NearestAirportsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E42C834DCFB47CA2533B3B83 /* Pods-NearestAirportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearestAirportsTests.debug.xcconfig"; path = "Target Support Files/Pods-NearestAirportsTests/Pods-NearestAirportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E483550225F02A8600D29DB4 /* PersisstentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersisstentStorage.swift; sourceTree = "<group>"; };
+		E483550825F02F3E00D29DB4 /* AirportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportManager.swift; sourceTree = "<group>"; };
+		E483551025F09FA800D29DB4 /* CRAirportElement+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CRAirportElement+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E483551125F09FA800D29DB4 /* CRAirportElement+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CRAirportElement+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E4D5D38525ED70FF00AF0358 /* NearestAirports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearestAirports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4D5D38825ED70FF00AF0358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4D5D38A25ED70FF00AF0358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,8 +137,25 @@
 				E42C834DCFB47CA2533B3B83 /* Pods-NearestAirportsTests.debug.xcconfig */,
 				12EE53164091A539EDE041C0 /* Pods-NearestAirportsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E48354F025F0298000D29DB4 /* CoreDataSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E483551025F09FA800D29DB4 /* CRAirportElement+CoreDataClass.swift */,
+				E483551125F09FA800D29DB4 /* CRAirportElement+CoreDataProperties.swift */,
+				E483550225F02A8600D29DB4 /* PersisstentStorage.swift */,
+			);
+			path = CoreDataSupportFiles;
+			sourceTree = "<group>";
+		};
+		E483550725F02F0A00D29DB4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E483550825F02F3E00D29DB4 /* AirportManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		E4D5D37C25ED70FF00AF0358 = {
@@ -158,6 +183,8 @@
 		E4D5D38725ED70FF00AF0358 /* NearestAirports */ = {
 			isa = PBXGroup;
 			children = (
+				E483550725F02F0A00D29DB4 /* Manager */,
+				E48354F025F0298000D29DB4 /* CoreDataSupportFiles */,
 				E4D5D44225EEB87800AF0358 /* Controllers */,
 				E4D5D3D525ED72A200AF0358 /* View */,
 				E4D5D3D425ED728D00AF0358 /* ViewModel */,
@@ -487,13 +514,17 @@
 				E4D5D3CC25ED724400AF0358 /* HttpUtility.swift in Sources */,
 				E4D5D44725EEB8EB00AF0358 /* DescriptionVC.swift in Sources */,
 				E4D5D38D25ED70FF00AF0358 /* ViewController.swift in Sources */,
+				E483551225F09FA800D29DB4 /* CRAirportElement+CoreDataClass.swift in Sources */,
 				E4D5D44C25EEBBA900AF0358 /* DescriptionViewModel.swift in Sources */,
 				E4D5D38925ED70FF00AF0358 /* AppDelegate.swift in Sources */,
 				E4D5D39325ED70FF00AF0358 /* NearestAirports.xcdatamodeld in Sources */,
+				E483550325F02A8600D29DB4 /* PersisstentStorage.swift in Sources */,
 				E4D5D3C325ED71C300AF0358 /* Common.swift in Sources */,
+				E483550925F02F3E00D29DB4 /* AirportManager.swift in Sources */,
 				E4D5D38B25ED70FF00AF0358 /* SceneDelegate.swift in Sources */,
 				E4D5D43E25EEB84400AF0358 /* airportDescription.swift in Sources */,
 				E4D5D3DF25ED72E800AF0358 /* AirportModel.swift in Sources */,
+				E483551325F09FA800D29DB4 /* CRAirportElement+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
